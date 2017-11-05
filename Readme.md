@@ -13,6 +13,8 @@ Wrapper for the Salesforce CLI to for use in Node.js
 
  Additionally option flags can be passed in as an object to the command using the flag names. So `sfdx force:org:create --setdefaultusername` becomes `sfdx.org.create({ setdefaultusername: true})`
 
+ Commands all return a JS Promise.
+
 ```javascript
 var sfdx = require('sfdx-node');
 
