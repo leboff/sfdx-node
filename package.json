@@ -1,6 +1,6 @@
 {
   "name": "sfdx-node",
-  "version": "0.0.1",
+  "version": "42.0.0",
   "description": "Utility to wrap the Salesforce CLI for use in NodeJS",
   "main": "index.js",
   "scripts": {
